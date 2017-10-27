@@ -19,7 +19,7 @@ public class StudentController {
 	@RequestMapping("/hello")
 	public  @ResponseBody String getAllStudent(@RequestParam String firstName, @RequestParam String lastName){
 		return delegate.getAllStudentsInfo(firstName, lastName);
-	
+	}
 	
 	@RequestMapping("getByFirstName")
 	public @ResponseBody StudentDMO getByFirstName(@RequestParam String fname){
