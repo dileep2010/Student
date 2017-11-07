@@ -1,0 +1,2 @@
+http://www.baeldung.com/database-migrations-with-flyway
+$ mvn clean flyway:migrate -Dflyway.configFile=myFlywayConfig.properties
